@@ -28,3 +28,17 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+
+.image-section {
+    background-color: white;
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #e74c3c;
+    font-size: 32px;
+}

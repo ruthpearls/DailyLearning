@@ -1,62 +1,67 @@
 body {
-    background-color: #f0f8ff;
+    background-color: #ffffff;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 50px;
+    padding: 80px 50px;
 }
 
 h1 {
-    color: #2c3e50;
-    font-size: 48px;
-}
-
-p {
-    color: #7f8c8d;
-    font-size: 20px;
-}
-
-button {
-    background-color: #3498db;
-    color: white;
-    padding: 15px 30px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 20px 0;
-}
-
-button:hover {
-    background-color: #2980b9;
-}
-
-.image-section {
-    background-color: white;
-    margin: 40px auto;
-    padding: 30px;
-    max-width: 500px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    color: #1a1a1a;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 h2 {
-    color: #e74c3c;
-    font-size: 32px;
+    color: #1a1a1a;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+button:hover {
+    background-color: #1a252f;
+}
+
+.image-section {
+    background-color: #f8f8f8;
+    margin: 80px auto;
+    padding: 50px 40px;
+    max-width: 600px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
 }
 
 .cta-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-color: #2c3e50;
     color: white;
-    padding: 50px 30px;
-    margin: 50px auto;
-    max-width: 600px;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    padding: 60px 40px;
+    margin: 80px auto;
+    max-width: 700px;
+    border-radius: 8px;
 }
 
 .cta-section h2 {
     color: white;
-    margin-bottom: 15px;
+    font-size: 36px;
+    margin-bottom: 16px;
 }
 
 .cta-section p {
@@ -67,16 +72,15 @@ h2 {
 
 .cta-button {
     background-color: white;
-    color: #667eea;
-    padding: 15px 40px;
-    font-size: 18px;
+    color: #2c3e50;
+    padding: 16px 48px;
+    font-size: 16px;
     font-weight: bold;
     border: none;
-    border-radius: 25px;
+    border-radius: 6px;
     cursor: pointer;
 }
 
 .cta-button:hover {
     background-color: #f0f0f0;
-    transform: scale(1.05);
 }
